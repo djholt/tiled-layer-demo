@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF35539F15AE86F900ECF02C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF35539E15AE86F900ECF02C /* UIKit.framework */; };
+		AF3553A115AE86F900ECF02C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3553A015AE86F900ECF02C /* Foundation.framework */; };
+		AF3553A315AE86F900ECF02C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3553A215AE86F900ECF02C /* CoreGraphics.framework */; };
+		AF3553A915AE86F900ECF02C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF3553A715AE86F900ECF02C /* InfoPlist.strings */; };
+		AF3553AB15AE86F900ECF02C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3553AA15AE86F900ECF02C /* main.m */; };
+		AF3553AF15AE86F900ECF02C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3553AE15AE86F900ECF02C /* AppDelegate.m */; };
+		AF3553B215AE86F900ECF02C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3553B015AE86F900ECF02C /* MainStoryboard.storyboard */; };
+		AF3553B515AE86F900ECF02C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3553B415AE86F900ECF02C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF35539A15AE86F900ECF02C /* TiledLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35539E15AE86F900ECF02C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF3553A015AE86F900ECF02C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF3553A215AE86F900ECF02C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF3553A615AE86F900ECF02C /* TiledLayerDemo-Info.plist */ = {isa = PBXFileReference; path = "TiledLayerDemo-Info.plist"; sourceTree = "<group>"; };
+		AF3553A815AE86F900ECF02C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF3553AA15AE86F900ECF02C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF3553AC15AE86F900ECF02C /* TiledLayerDemo-Prefix.pch */ = {isa = PBXFileReference; path = "TiledLayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AF3553AD15AE86F900ECF02C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF3553AE15AE86F900ECF02C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF3553B115AE86F900ECF02C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AF3553B315AE86F900ECF02C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AF3553B415AE86F900ECF02C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF35539715AE86F900ECF02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35539F15AE86F900ECF02C /* UIKit.framework in Frameworks */,
+				AF3553A115AE86F900ECF02C /* Foundation.framework in Frameworks */,
+				AF3553A315AE86F900ECF02C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF35538F15AE86F900ECF02C = {
+			isa = PBXGroup;
+			children = (
+				AF3553A415AE86F900ECF02C /* TiledLayerDemo */,
+				AF35539D15AE86F900ECF02C /* Frameworks */,
+				AF35539B15AE86F900ECF02C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF35539B15AE86F900ECF02C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF35539A15AE86F900ECF02C /* TiledLayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF35539D15AE86F900ECF02C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF35539E15AE86F900ECF02C /* UIKit.framework */,
+				AF3553A015AE86F900ECF02C /* Foundation.framework */,
+				AF3553A215AE86F900ECF02C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3553A415AE86F900ECF02C /* TiledLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF3553AD15AE86F900ECF02C /* AppDelegate.h */,
+				AF3553AE15AE86F900ECF02C /* AppDelegate.m */,
+				AF3553B015AE86F900ECF02C /* MainStoryboard.storyboard */,
+				AF3553B315AE86F900ECF02C /* ViewController.h */,
+				AF3553B415AE86F900ECF02C /* ViewController.m */,
+				AF3553A515AE86F900ECF02C /* Supporting Files */,
+			);
+			path = TiledLayerDemo;
+			sourceTree = "<group>";
+		};
+		AF3553A515AE86F900ECF02C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3553A615AE86F900ECF02C /* TiledLayerDemo-Info.plist */,
+				AF3553A715AE86F900ECF02C /* InfoPlist.strings */,
+				AF3553AA15AE86F900ECF02C /* main.m */,
+				AF3553AC15AE86F900ECF02C /* TiledLayerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF35539915AE86F900ECF02C /* TiledLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3553B815AE86F900ECF02C /* Build configuration list for PBXNativeTarget "TiledLayerDemo" */;
+			buildPhases = (
+				AF35539615AE86F900ECF02C /* Sources */,
+				AF35539715AE86F900ECF02C /* Frameworks */,
+				AF35539815AE86F900ECF02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledLayerDemo;
+			productName = TiledLayerDemo;
+			productReference = AF35539A15AE86F900ECF02C /* TiledLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF35539115AE86F900ECF02C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AF35539415AE86F900ECF02C /* Build configuration list for PBXProject "TiledLayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF35538F15AE86F900ECF02C;
+			productRefGroup = AF35539B15AE86F900ECF02C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF35539915AE86F900ECF02C /* TiledLayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF35539815AE86F900ECF02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3553A915AE86F900ECF02C /* InfoPlist.strings in Resources */,
+				AF3553B215AE86F900ECF02C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF35539615AE86F900ECF02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3553AB15AE86F900ECF02C /* main.m in Sources */,
+				AF3553AF15AE86F900ECF02C /* AppDelegate.m in Sources */,
+				AF3553B515AE86F900ECF02C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF3553A715AE86F900ECF02C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3553A815AE86F900ECF02C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF3553B015AE86F900ECF02C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3553B115AE86F900ECF02C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3553B615AE86F900ECF02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AF3553B715AE86F900ECF02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3553B915AE86F900ECF02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledLayerDemo/TiledLayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "TiledLayerDemo/TiledLayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF3553BA15AE86F900ECF02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledLayerDemo/TiledLayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "TiledLayerDemo/TiledLayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF35539415AE86F900ECF02C /* Build configuration list for PBXProject "TiledLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3553B615AE86F900ECF02C /* Debug */,
+				AF3553B715AE86F900ECF02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3553B815AE86F900ECF02C /* Build configuration list for PBXNativeTarget "TiledLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3553B915AE86F900ECF02C /* Debug */,
+				AF3553BA15AE86F900ECF02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF35539115AE86F900ECF02C /* Project object */;
+}
