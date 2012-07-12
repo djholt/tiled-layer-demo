@@ -24,6 +24,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     self.scrollView.delegate = self;
+    self.scrollView.contentSize = self.tiledImageView.bounds.size;
 }
 
 - (void)viewDidUnload
