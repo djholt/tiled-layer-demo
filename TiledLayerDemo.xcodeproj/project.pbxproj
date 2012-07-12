@@ -22,14 +22,14 @@
 		AF35539E15AE86F900ECF02C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF3553A015AE86F900ECF02C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF3553A215AE86F900ECF02C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AF3553A615AE86F900ECF02C /* TiledLayerDemo-Info.plist */ = {isa = PBXFileReference; path = "TiledLayerDemo-Info.plist"; sourceTree = "<group>"; };
+		AF3553A615AE86F900ECF02C /* TiledLayerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiledLayerDemo-Info.plist"; sourceTree = "<group>"; };
 		AF3553A815AE86F900ECF02C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF3553AA15AE86F900ECF02C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF3553AC15AE86F900ECF02C /* TiledLayerDemo-Prefix.pch */ = {isa = PBXFileReference; path = "TiledLayerDemo-Prefix.pch"; sourceTree = "<group>"; };
-		AF3553AD15AE86F900ECF02C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF3553AC15AE86F900ECF02C /* TiledLayerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiledLayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AF3553AD15AE86F900ECF02C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF3553AE15AE86F900ECF02C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF3553B115AE86F900ECF02C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AF3553B315AE86F900ECF02C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AF3553B315AE86F900ECF02C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AF3553B415AE86F900ECF02C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
