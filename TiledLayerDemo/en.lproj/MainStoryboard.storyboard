@@ -18,6 +18,14 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="8" id="hfb-Ks-XM8">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="KJZ-OC-Z3M" customClass="TiledImageView">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -25,16 +33,21 @@
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="hfb-Ks-XM8" id="Tvi-VA-fgf"/>
+                        <outlet property="tiledImageView" destination="KJZ-OC-Z3M" id="uT2-2p-C7s"/>
                     </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
     <classes>
+        <class className="TiledImageView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TiledImageView.h"/>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="tiledImageView" candidateClass="TiledImageView"/>
             </relationships>
         </class>
     </classes>

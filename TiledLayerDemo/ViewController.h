@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class TiledImageView;
+
 @interface ViewController : UIViewController <UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet TiledImageView *tiledImageView;
 
 @end

@@ -1375,6 +1375,8 @@
 		AF355E5915AE88D700ECF02C /* orion_8192_256x256+7936+768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF35590915AE88D600ECF02C /* orion_8192_256x256+7936+768.jpg */; };
 		AF355E5A15AE88D700ECF02C /* orion_8192_256x256+7936+7680.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF35590A15AE88D600ECF02C /* orion_8192_256x256+7936+7680.jpg */; };
 		AF355E5B15AE88D700ECF02C /* orion_8192_256x256+7936+7936.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF35590B15AE88D600ECF02C /* orion_8192_256x256+7936+7936.jpg */; };
+		AF355E5E15AE89A900ECF02C /* TiledImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF355E5D15AE89A900ECF02C /* TiledImageView.m */; };
+		AF355E6015AE8B8E00ECF02C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF355E5F15AE8B8E00ECF02C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2751,6 +2753,9 @@
 		AF35590915AE88D600ECF02C /* orion_8192_256x256+7936+768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orion_8192_256x256+7936+768.jpg"; sourceTree = "<group>"; };
 		AF35590A15AE88D600ECF02C /* orion_8192_256x256+7936+7680.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orion_8192_256x256+7936+7680.jpg"; sourceTree = "<group>"; };
 		AF35590B15AE88D600ECF02C /* orion_8192_256x256+7936+7936.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orion_8192_256x256+7936+7936.jpg"; sourceTree = "<group>"; };
+		AF355E5C15AE89A900ECF02C /* TiledImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledImageView.h; sourceTree = "<group>"; };
+		AF355E5D15AE89A900ECF02C /* TiledImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledImageView.m; sourceTree = "<group>"; };
+		AF355E5F15AE8B8E00ECF02C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2758,6 +2763,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF355E6015AE8B8E00ECF02C /* QuartzCore.framework in Frameworks */,
 				AF35539F15AE86F900ECF02C /* UIKit.framework in Frameworks */,
 				AF3553A115AE86F900ECF02C /* Foundation.framework in Frameworks */,
 				AF3553A315AE86F900ECF02C /* CoreGraphics.framework in Frameworks */,
@@ -2787,6 +2793,7 @@
 		AF35539D15AE86F900ECF02C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF355E5F15AE8B8E00ECF02C /* QuartzCore.framework */,
 				AF35539E15AE86F900ECF02C /* UIKit.framework */,
 				AF3553A015AE86F900ECF02C /* Foundation.framework */,
 				AF3553A215AE86F900ECF02C /* CoreGraphics.framework */,
@@ -2800,6 +2807,8 @@
 				AF3553AD15AE86F900ECF02C /* AppDelegate.h */,
 				AF3553AE15AE86F900ECF02C /* AppDelegate.m */,
 				AF3553B015AE86F900ECF02C /* MainStoryboard.storyboard */,
+				AF355E5C15AE89A900ECF02C /* TiledImageView.h */,
+				AF355E5D15AE89A900ECF02C /* TiledImageView.m */,
 				AF3553B315AE86F900ECF02C /* ViewController.h */,
 				AF3553B415AE86F900ECF02C /* ViewController.m */,
 				AF3553A515AE86F900ECF02C /* Supporting Files */,
@@ -5611,6 +5620,7 @@
 				AF3553AB15AE86F900ECF02C /* main.m in Sources */,
 				AF3553AF15AE86F900ECF02C /* AppDelegate.m in Sources */,
 				AF3553B515AE86F900ECF02C /* ViewController.m in Sources */,
+				AF355E5E15AE89A900ECF02C /* TiledImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

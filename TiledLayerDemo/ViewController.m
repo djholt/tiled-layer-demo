@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TiledImageView.h"
 
 @interface ViewController ()
 
@@ -15,6 +16,7 @@
 @implementation ViewController
 
 @synthesize scrollView;
+@synthesize tiledImageView;
 
 - (void)viewDidLoad
 {
@@ -27,6 +29,7 @@
 - (void)viewDidUnload
 {
     [self setScrollView:nil];
+    [self setTiledImageView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -34,6 +37,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.tiledImageView;
 }
 
 @end
